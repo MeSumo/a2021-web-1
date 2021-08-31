@@ -6,7 +6,7 @@
 	// 
 	/* */
 
-	$username = 3
+	$username = 3;
 	$username = 0; //"John";
 
 	if ($username === "John") {
