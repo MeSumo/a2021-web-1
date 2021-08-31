@@ -5,7 +5,16 @@
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		<form action="04 - formulaire.php" method="get">
+		<?php
+			// ou $_POST["..."] si on est en method="post"
+			// if (isset($_GET["info"]) && strlen($_GET["info"]) > 0) {
+			if (!empty($_GET["info"])) {
+				?>
+				<div style="color:blue">Bonjour toi!</div>
+				<?php
+			}
+		?>
+		<form action="" method="get">
 			<div>
 				Info : <input type="text" name="info" />
 			</div>
