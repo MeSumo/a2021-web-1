@@ -1,12 +1,12 @@
 <?php 
-	echo "123";
+	echo '123';
 	// ctrl+é
 	// phpt = php tags
 	#
 	// 
 	/* */
 
-	$username = 3;
+	$username = 3
 	$username = 0; //"John";
 
 	if ($username === "John") {
