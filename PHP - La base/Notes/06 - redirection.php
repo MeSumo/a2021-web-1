@@ -1,3 +1,8 @@
+<?php
+	header("location:01 - variables.php");
+	exit;
+	// DELETE FROM courses where id_course = 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
