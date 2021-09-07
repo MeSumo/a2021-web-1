@@ -3,5 +3,4 @@
 	function resultatFormuleScientifique($nombre1, $nombre2) {
 		return $nombre1 + $nombre2;
 	}
-
-	// fichier non fermé (pas de balise de fermeture php)
+	// fichier non fermÃ© (pas de balise de fermeture php)
