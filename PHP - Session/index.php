@@ -1,6 +1,6 @@
 <?php
 	require_once("action/indexAction.php");
-	
+
 	$data = execute();
 
 	require_once("partial/header.php");
@@ -24,16 +24,16 @@
 			<div class="form-label">Courriel : </div>
 			<div class="form-input"><input type="email" name="courriel" /></div>
 			<div class="form-separator"></div>
-			
+
 			<div class="form-label">Mot de passe : </div>
 			<div class="form-input"><input type="password" name="motDePasse" /></div>
 			<div class="form-separator"></div>
-			
+
 			<div class="form-label">&nbsp;</div>
 			<div class="form-input"><button>Envoyer</button></div>
 			<div class="form-separator"></div>
 		</form>
 		<?php
 	}
-	
+
 	require_once("partial/footer.php");
